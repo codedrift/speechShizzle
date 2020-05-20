@@ -12,7 +12,7 @@
 .transcription {
 	font-family: "Space Mono", monospace;
 	position: absolute;
-	color: black;
+	color: white;
 	mix-blend-mode: multiply;
 	text-align: center;
 	bottom: 0vh;
@@ -38,13 +38,16 @@
 .search {
 	position: absolute;
 	font-family: "Inknut Antiqua", serif;
-	color: black;
+	color: white;
 	padding: 0;
 	top: 40vh;
 	text-align: center;
 	font-weight: bold;
 	font-size: 15vw;
 	line-height: 10vw;
+	-webkit-text-stroke: 1px black;
+	color: white;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .searchTop {
@@ -53,7 +56,7 @@
 
 .typist {
 	font-family: "Space Mono", monospace;
-	color: gray;
+	color: white;
 	position: absolute;
 	right: 0vw;
 	left: 0;
@@ -62,6 +65,9 @@
 	font-weight: 700;
 	font-size: 80px;
 	/* letter-spacing: -.8vw; */
+	-webkit-text-stroke: 1px black;
+	color: white;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .debug {
@@ -75,6 +81,9 @@
 	opacity: 0.9;
 	border-radius: 2px;
 	max-width: 600px;
+	-webkit-text-stroke: 1px black;
+	color: white;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .background {

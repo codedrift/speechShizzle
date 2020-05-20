@@ -35,12 +35,12 @@
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": [
-			"yarn format",
-			"yarn lint",
+			"npm run format",
+			"npm run lint",
 			"git add"
 		],
 		"*.{css,md,json,yml}": [
-			"yarn format",
+			"npm run format",
 			"git add"
 		]
 	},

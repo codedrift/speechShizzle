@@ -9,7 +9,7 @@ interface IExtendedWindow extends Window {
 	webkitSpeechRecognitionEvent: any;
 }
 
-const extendedWindow = window as IExtendedWindow;
+const extendedWindow = (window as unknown) as IExtendedWindow;
 
 interface IState {
 	full: string;
